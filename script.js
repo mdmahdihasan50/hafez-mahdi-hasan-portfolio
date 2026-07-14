@@ -1,3 +1,5 @@
+import profileImage from "./profile-mahdi-hasan.jpg";
+
 (() => {
   const { copy, projects, contact } = window.portfolioData;
   const state = {
@@ -51,7 +53,7 @@
           <div class="orbit orbit--two"></div>
           <div class="portrait-frame">
             <div class="portrait-frame__dots" aria-hidden="true"></div>
-            <img src="profile-mahdi-hasan.jpg" alt="${t.profileAlt}" width="520" height="620" fetchpriority="high" />
+            <img src="${profileImage}" alt="${t.profileAlt}" width="520" height="620" fetchpriority="high" />
             <div class="portrait-chip portrait-chip--top">${icon("code-2", 18)} Flutter</div>
             <div class="portrait-chip portrait-chip--bottom"><span></span>${t.portraitNote}</div>
           </div>
