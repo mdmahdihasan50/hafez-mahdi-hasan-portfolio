@@ -6,7 +6,7 @@ const portfolioData = {
     whatsapp: "8801790905350",
     email: "hafezmahdihasan50@gmail.com",
     facebook: "https://facebook.com/hafezmahdihasan50",
-    github: "https://github.com/hafezmahdihasan"
+    github: "https://github.com/mdmahdihasan50"
   },
 
   copy: {
