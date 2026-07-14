@@ -232,7 +232,7 @@ import profileImage from "./profile-mahdi-hasan.jpg";
             <span class="ruqyah__badge">${icon("sparkle", 16)} ${t.ruqyahBadge}</span>
             <h2>${t.ruqyahTitle}</h2><p>${t.ruqyahDesc}</p>
             <ul>${t.ruqyahPoints.map((point) => `<li>${icon("circle-check", 18)} ${point}</li>`).join("")}</ul>
-            <a class="button button--light" href="https://ruqyahcourse.edu-bd.top/" target="_blank" rel="noreferrer">${t.ruqyahCta} ${icon("arrow-up-right", 18)}</a>
+            <a class="button button--light" href="https://ruqyahcourse.insafsoft.com/" target="_blank" rel="noreferrer">${t.ruqyahCta} ${icon("arrow-up-right", 18)}</a>
           </div>
           <div class="ruqyah__visual" aria-hidden="true">
             <div class="arch"><span>${icon("book-open", 58)}</span></div>

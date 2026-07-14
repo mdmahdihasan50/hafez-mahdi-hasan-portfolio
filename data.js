@@ -297,7 +297,7 @@ const portfolioData = {
       title: "রুকইয়াহ কোর্স ও চিকিৎসা", enTitle: "Ruqyah Course & Treatment", category: "web",
       bn: "কুরআন-সুন্নাহভিত্তিক রুকইয়াহ কোর্স, শেখার উপকরণ ও চিকিৎসাসেবা সংযুক্ত অনলাইন প্ল্যাটফর্ম।",
       en: "An online platform for Quran and Sunnah-based Ruqyah courses, learning and treatment.",
-      link: "https://ruqyahcourse.edu-bd.top/", icon: "shield-plus", tone: "blue"
+      link: "https://ruqyahcourse.insafsoft.com/", icon: "shield-plus", tone: "blue"
     },
     {
       title: "Hifz Management Web App", enTitle: "Hifz Management Web App", category: "management",
