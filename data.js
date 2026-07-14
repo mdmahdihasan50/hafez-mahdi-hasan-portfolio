@@ -153,6 +153,41 @@ const portfolioData = {
 
   projects: [
     {
+      title: "হিফজ ম্যানেজমেন্ট", enTitle: "Hifz Management", category: "management",
+      bn: "হিফজ বিভাগ, শিক্ষার্থী অগ্রগতি এবং শিক্ষক-অভিভাবক যোগাযোগ ব্যবস্থাপনার পূর্ণাঙ্গ ডিজিটাল সিস্টেম।",
+      en: "A complete digital system for Hifz departments, student progress and communication.",
+      link: "https://play.google.com/store/apps/details?id=com.insaf.hifz_management",
+      image: "https://play-lh.googleusercontent.com/jf8RCxQUlG6k8-IG2I3KADumpXaSoX4cX1lrFqaHV_vT_BlZo3jxpwBfJ0Rjp-G1pk6dtEyvOMFbTcBXz5d1", icon: "chart-no-axes-combined", tone: "violet"
+    },
+    {
+      title: "মাশকুল কুরআন ফাউন্ডেশন", enTitle: "Mashqul Quran Foundation", category: "mobile", featured: true,
+      bn: "কুরআন শিক্ষা, যোগ্য শিক্ষক খোঁজা, ফাউন্ডেশনের কার্যক্রম, সালাতের সময় ও প্রয়োজনীয় আপডেট—সবকিছু এক জায়গায়।",
+      en: "Quran education, teacher discovery, foundation activities, prayer times and essential updates in one app.",
+      link: "https://play.google.com/store/apps/details?id=com.mashkulquranfoundation.huffazandnooranitrainingnews",
+      image: "https://play-lh.googleusercontent.com/azEhyajaaLXGhEo8KGimWV7YL5ahyRKyn8WJwxFexwc48avNMlm175uqDcm5AmmmZz1yyuo-pZA0R1KmJ-K5IQ=w240-h480", icon: "heart-handshake", tone: "emerald"
+    },
+    {
+      title: "অনলাইন হিফজ মাদরাসা", enTitle: "Online Hifz Madrasa", category: "management",
+      bn: "অনলাইন হিফজ শিক্ষা, ভর্তি, ক্লাস ও পরীক্ষার ফলাফল পরিচালনার সমন্বিত প্ল্যাটফর্ম।",
+      en: "An integrated platform for online Hifz learning, admissions, classes and results.",
+      link: "https://play.google.com/store/apps/details?id=com.mashkulquranfoundation.onlinehifzmadrasa",
+      image: "https://play-lh.googleusercontent.com/anAO4pb5wT0icJYa6vVB8SiZ_jz-nYVrTn9SV_byhmUx_f0zLwRxJREuko1Byuo293SOs1nelvuGORoj1kKn9A", icon: "school", tone: "blue"
+    },
+    {
+      title: "হুফফাজুল কুরআন", enTitle: "Huffazul Quran", category: "mobile",
+      bn: "১৫ লাইনের হাফেজি কুরআন, ওয়াকফ-ইবতিদা ও মুতাশাবিহাত আয়াতসহ হিফজ শিক্ষার্থীদের বিশেষ সহায়ক।",
+      en: "A 15-line Hafezi Quran with Waqf-Ibtida and Mutashabihat support for Hifz students.",
+      link: "https://play.google.com/store/apps/details?id=com.mashkulquranfoundation.huffazul_quran",
+      image: "https://play-lh.googleusercontent.com/HG1_fcq5sROSC_g5xhjOLN0ujXR169H0-nB3Msem-XhrGbdgQKc-_dQCkBiTsiy23Zsj3zYfZqK95vB3itYWIg", icon: "book-open", tone: "emerald"
+    },
+    {
+      title: "হাফেজ কারী মোয়াজ্জম হোসাইন", enTitle: "Hafez Qari Moajjam Hossain", category: "mobile",
+      bn: "কুরআন তিলাওয়াত, তাজবিদ শিক্ষা ও লাইভ ক্লাসকে এক জায়গায় আনা একটি ইসলামিক লার্নিং অ্যাপ।",
+      en: "Quran recitation, Tajweed lessons and live classes in one Islamic learning app.",
+      link: "https://play.google.com/store/apps/details?id=com.moajjam.mashqul_quran_foundation",
+      image: "https://play-lh.googleusercontent.com/-REWN0LX1UV0cipDspj9zg0t_t6n5nIQ_48zKwVN4D2wL4Xmmki5KK6U8N5IMcxPF_OLnqWsGIspSPQ8scrZ_A", icon: "audio-lines", tone: "blue"
+    },
+    {
       title: "খাযায়েনে কুরআন ও হাদিস", enTitle: "Khazayene Quran O Hadis", category: "mobile", featured: true,
       bn: "কুরআন ও হাদিসের গুরুত্বপূর্ণ জ্ঞান ও প্রয়োজনীয় বিষয়বস্তু সহজে অধ্যয়নের জন্য সাজানো ইসলামিক অ্যাপ।",
       en: "An Islamic learning app that makes important Quran and Hadith resources easier to explore.",
@@ -165,34 +200,6 @@ const portfolioData = {
       en: "An educational app for learning Islamic manners and social conduct in everyday life.",
       link: "https://apkpure.com/p/com.talimulquraninstitute.adabulmuasarat",
       image: "https://image.winudf.com/v2/image1/ZGV2X2ltYWdlXzE1MzU3NjU2XzE0Mjc5NV8yMDIxMDMyNjA4MDUzNjg0Mg/icon.png?w=280&fakeurl=1", icon: "book-heart", tone: "amber"
-    },
-    {
-      title: "হাফেজ কারী মোয়াজ্জম হোসাইন", enTitle: "Hafez Qari Moajjam Hossain", category: "mobile",
-      bn: "কুরআন তিলাওয়াত, তাজবিদ শিক্ষা ও লাইভ ক্লাসকে এক জায়গায় আনা একটি ইসলামিক লার্নিং অ্যাপ।",
-      en: "Quran recitation, Tajweed lessons and live classes in one Islamic learning app.",
-      link: "https://play.google.com/store/apps/details?id=com.moajjam.mashqul_quran_foundation",
-      image: "https://play-lh.googleusercontent.com/-REWN0LX1UV0cipDspj9zg0t_t6n5nIQ_48zKwVN4D2wL4Xmmki5KK6U8N5IMcxPF_OLnqWsGIspSPQ8scrZ_A", icon: "audio-lines", tone: "blue"
-    },
-    {
-      title: "হিফজ ম্যানেজমেন্ট", enTitle: "Hifz Management", category: "management",
-      bn: "হিফজ বিভাগ, শিক্ষার্থী অগ্রগতি এবং শিক্ষক-অভিভাবক যোগাযোগ ব্যবস্থাপনার পূর্ণাঙ্গ ডিজিটাল সিস্টেম।",
-      en: "A complete digital system for Hifz departments, student progress and communication.",
-      link: "https://play.google.com/store/apps/details?id=com.insaf.hifz_management",
-      image: "https://play-lh.googleusercontent.com/jf8RCxQUlG6k8-IG2I3KADumpXaSoX4cX1lrFqaHV_vT_BlZo3jxpwBfJ0Rjp-G1pk6dtEyvOMFbTcBXz5d1", icon: "chart-no-axes-combined", tone: "violet"
-    },
-    {
-      title: "হুফফাজুল কুরআন", enTitle: "Huffazul Quran", category: "mobile",
-      bn: "১৫ লাইনের হাফেজি কুরআন, ওয়াকফ-ইবতিদা ও মুতাশাবিহাত আয়াতসহ হিফজ শিক্ষার্থীদের বিশেষ সহায়ক।",
-      en: "A 15-line Hafezi Quran with Waqf-Ibtida and Mutashabihat support for Hifz students.",
-      link: "https://play.google.com/store/apps/details?id=com.mashkulquranfoundation.huffazul_quran",
-      image: "https://play-lh.googleusercontent.com/HG1_fcq5sROSC_g5xhjOLN0ujXR169H0-nB3Msem-XhrGbdgQKc-_dQCkBiTsiy23Zsj3zYfZqK95vB3itYWIg", icon: "book-open", tone: "emerald"
-    },
-    {
-      title: "অনলাইন হিফজ মাদরাসা", enTitle: "Online Hifz Madrasa", category: "management",
-      bn: "অনলাইন হিফজ শিক্ষা, ভর্তি, ক্লাস ও পরীক্ষার ফলাফল পরিচালনার সমন্বিত প্ল্যাটফর্ম।",
-      en: "An integrated platform for online Hifz learning, admissions, classes and results.",
-      link: "https://play.google.com/store/apps/details?id=com.mashkulquranfoundation.onlinehifzmadrasa",
-      image: "https://play-lh.googleusercontent.com/anAO4pb5wT0icJYa6vVB8SiZ_jz-nYVrTn9SV_byhmUx_f0zLwRxJREuko1Byuo293SOs1nelvuGORoj1kKn9A", icon: "school", tone: "blue"
     },
     {
       title: "শায়খ আব্দুল হক ফাউন্ডেশন", enTitle: "Shaykh Abdul Haque Foundation", category: "mobile",
